@@ -1,21 +1,19 @@
-##O que voce fez?
+# Trabalho 01 Contato
 
-	criei as classes Imput e Agenda
+## Dupla
+- Eduardo e João Pedro 
 
-##Com quem e como você fez?
+## O que voce fez?
+- criei as classes Imput e Agenda
 
-	João Pedro e com ajuda de Karine Ennalian
-	 
+## Com quem e como você fez?
+- João Pedro e com ajuda de Karine Ennalian
 
-##O que aprendeu e sabe fazer?
+## O que aprendeu e sabe fazer?
+- ArrayList, Construtor e ToString.
 
-	ArrayList, Construtor e ToString.
+## O que tem dificuldade ainda?
+- Criar interação com usuario e as partes que envolve as funções.
 
-##O que tem dificuldade ainda?
-
-	Criar interação com usuario e as partes que envolve as funções.
-
-
-##Quanto tempo levou pra fazer a atividade?
-
-	1 semana
+## Quanto tempo levou pra fazer a atividade?
+- 1 semana
