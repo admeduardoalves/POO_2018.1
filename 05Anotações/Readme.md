@@ -1,20 +1,20 @@
-# AnotaÁıes
+# Anota√ß√µes
 
-##  que voce fez?
+##  que voc√™ fez?
 
-- fiz gerenciador Login e user.
+- Fiz gerenciador Login e user.
 
 ## Com quem e como voc√™ fez?
 
-- Jo„o pedro e eu fizemos com ajuda de video aulas. Tivemos que criamos as classes seus objetos, logo apos criados, fizemos as tostrings, em seguida a classe controller (tivemos  dificuldades), pois a classe repositorio era meio complicada de entender na pratica. Assistimos as video aulas vizando revisar coisas que n„o lembrava mais. Eu pedi ajuda a "Mary" para me explicar melhor a quest„o do repositorio.
+- Jo√£o pedro e eu fizemos com ajuda de video aulas. Tivemos que criamos as classes seus objetos, logo apos criados, fizemos as tostrings, em seguida a classe controller (tivemos  dificuldades), pois a classe repositorio era meio complicada de entender na pratica. Assistimos as video aulas vizando revisar coisas que n√£o lembrava mais. Eu pedi ajuda a "Mary" para me explicar melhor a quest√£o do repositorio.
 
 ## O que aprendeu e sabe fazer?
 
-- tive melhor compreens„o da classe repositorio, percebi melhor sua importancia e funÁ„o, apesar de ter tido bastantes dificulades em fazer.
+- Tive melhor compreens√£o da classe repositorio, percebi melhor sua importancia e fun√ß√£o, apesar de ter tido bastantes dificulades em fazer.
 
 ## O que tem dificuldade ainda?
 
-- repositorio e alguns cmetodos login.
+- repositorio e o raciocinio par com a contru√ß√£o de alguns metodos.
 
 
 ## Quanto tempo levou pra fazer a atividade?
