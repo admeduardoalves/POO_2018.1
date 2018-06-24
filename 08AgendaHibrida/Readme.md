@@ -2,21 +2,21 @@
 
 ##  que voce fez?
 
-- Fiz a classe Nota,Password, Entry, ajudei na controller e MasterAgenda (Jo„o Pedro, Rosembergson e eu). A repositorio foi apenas copiar.
+- Fiz a classe Nota,Password, Entry, ajudei na controller e MasterAgenda (Jo√£o Pedro, Rosembergson e eu). A repositorio foi apenas copiar.
 
 ## Com quem e como voc√™ fez?
 
-- Jo„o Pedro, li novamente o capitulo 9 da apostilha (caelum java) sobre polimorfismo, assisti a video aula 17, sentamos com Rosembergson e comeÁamos discutir sobre algumas funÁıes e conceitos e a aplicaÁ„o dela no cÛdigo que foi de grande ajuda.
-Primeiramente criamos as classes seus objetos, como de costume. Em seguida fizemos os toString, depois criamos a classe controller, que novamente tivemos bastante dificuldade, alÈm das classes agenda contato master agenda.
-Apesar de conhecer os metodos e tudo, abstraÁ„o de aplicaÁ„o junto ao cÛdigo ainda È um problema, n„o t„o grande como antes, mas eu estou tentando superar isso fazendo outros cÛdigos for· da disciplina, de forma mais simples e gradativa.Revisamos algumas coisas, fomos para a monitoria, apesar do Iago n„o estar presente, outro monitor ajudou um pouco (sÛ n„o lembro o nome dele nesse momento), enquanto o Jo„o Pedro conversava com Rosembergsom.
+- Jo√£o Pedro, li novamente o capitulo 9 da apostilha (caelum java) sobre polimorfismo, assisti a video aula 17, sentamos com Rosembergson e come√ßamos discutir sobre algumas fun√ß√µes e conceitos e a aplica√ß√£o dela no c√≥digo que foi de grande ajuda.
+Primeiramente criamos as classes seus objetos, como de costume. Em seguida fizemos os toString, depois criamos a classe controller, que novamente tivemos bastante dificuldade, al√©m das classes agenda contato master agenda.
+Apesar de conhecer os metodos e tudo, abstra√ß√£o de aplica√ß√£o junto ao c√≥digo ainda √© um problema, n√£o t√£o grande como antes, mas eu estou tentando superar isso fazendo outros c√≥digos for√° da disciplina, de forma mais simples e gradativa.Revisamos algumas coisas, fomos para a monitoria, apesar do Iago n√£o estar presente, outro monitor ajudou um pouco (s√≥ n√£o lembro o nome dele nesse momento), enquanto o Jo√£o Pedro conversava com Rosembergsom.
 
 ## O que aprendeu e sabe fazer?
 
-- Um pouco melhor sobre polimorfismo e sua importancia quando comparado a heranÁa, apesar que ao falar em herenÁa obrigatoriamente estariamos falando de polimorfismo.
+- Um pouco melhor sobre polimorfismo e sua importancia quando comparado a heran√ßa, apesar que ao falar em heren√ßa obrigatoriamente estariamos falando de polimorfismo.
 
 ## O que tem dificuldade ainda?
 
-- Ainda tenho alguns empasses de repositorio, e abstrair algumas funÁıes, apesar de conhecer.
+- Ainda tenho alguns empasses de repositorio, e abstrair algumas fun√ß√µes, apesar de conhecer.
 
 
 ## Quanto tempo levou pra fazer a atividade?
