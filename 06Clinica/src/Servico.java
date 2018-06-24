@@ -1,13 +1,16 @@
 public class Servico {
 
+	//declarando variaveis
 	private String idSer;
 	private float preco;
 	
+	//construtor
 	public Servico(String idservico, float preco) {
 		this.idSer = idservico;
 		this.preco = preco;
 	}
 
+	//getters e setters da classe
 	public String getIdservico() {
 		return idSer;
 	}
