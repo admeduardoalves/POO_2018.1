@@ -1,16 +1,19 @@
 
 public class Vendas {
 
+	//declarando variaveis
 	private String idCli;
 	private String idAni;
 	private String idSer;
 	
+	//construtor
 	public Vendas(String idcliente, String idanimal, String idservico) {
 		this.idCli = idcliente;
 		this.idAni = idanimal;
 		this.idSer = idservico;
 	}
-
+	
+	//setters e getters das variaveis da classe
 	public String getIdcliente() {
 		return idCli;
 	}
