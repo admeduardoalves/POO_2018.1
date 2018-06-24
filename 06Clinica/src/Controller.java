@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Controller {
 	Repositorio<Cliente> usuarios;
 	Repositorio<Servico> servicos; 
@@ -47,16 +46,20 @@ public class Controller {
 		
 		
 		else if(ui[0].equals("addAnimal")) {
+			//pega usuario e adiciona um novo animal na lista de animais do usuario
 			usuarios.get(ui[1]).animais.add(ui[2] , new Animal(numani,ui[2],ui[3], ui[1]));
+			//aumenta qtd de animais
 		    numani+=1;
 		}
 		
 		else if(ui[0].equals("addServico")) {
+			//adiciona  novo serviço na lista de serviços
 			servicos.add(ui[1], new Servico(ui[1],Float.parseFloat(ui[2])));
 		}
 		
 
 		else if(ui[0].equals("vender")) {
+			
 		    usuarios.get(ui[1]); 
 		    usuarios.get(ui[1]).animais.get(ui[2]);
 		    servicos.get(ui[3]);
@@ -67,38 +70,48 @@ public class Controller {
 
 		else if (ui[0].equals("showClientes")) {
 			String saida = " ";
+			//para cada usuario dentro da lista de usuarios
 			for(Cliente us : usuarios.getAll())
+				//saida recebe usuario
 				saida += us.toString() + "\n";
 			return saida;
 		}
 		
 		else if(ui[0].equals("showAnimal")) {
 		   String saida = " ";
+		   //para cada usuario dentro da lista de usuarios
 		   for(Cliente us : usuarios.getAll())
+			   //saida recebe animais do usuario
 			   saida += us.mostrarAnimais() + "\n";
 		   return saida;
 		}
 		
 		else if(ui[0].equals("showAnimaleCliente")) {
+			// pega animal e depois mostra lista de animais do cliente
 		   System.out.println(usuarios.get(ui[1]).animais.getAll().toString());
 		}
 		
 		
 		else if(ui[0].equals("showServicos")) {
 			String saida = " ";
+			//para cada serviço dentro da lista de serviços
 			for(Servico ser : servicos.getAll())
+				//saida recebe serviços
 				saida += ser.toString() + " \n";
 			return saida;
 		}
 		
 		else if(ui[0].equals("showVendas")){
 		    String saida = " ";
+		    //para cada venda dentro da lista de vendas
 		    for(Vendas v : vendas.getAll())
+		    	//saida recebe vendas
 			    saida += v.toString() + "\n";
 		    return saida;
 		}
 		
 		else if(ui[0].equals("Saldo")) {
+			//mostrar saldo do cliente
 			System.out.println("Saldo: " + saldo);
 		}
 		
