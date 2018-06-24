@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Agenda {
 		//criando lista de contatos do tp contato
 		private List<Contato> contatos;
