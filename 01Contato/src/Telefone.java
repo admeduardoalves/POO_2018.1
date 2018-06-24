@@ -6,7 +6,7 @@ public class Telefone {
 		//criando variavel numero
 		public int numero;
 		
-		//conatrutor
+		//construtor
 		public Telefone(String foneId, int numero) {
 			this.foneId = foneId;
 			this.numero = numero;
