@@ -1,79 +1,79 @@
-import  java.util.ArrayList ;
-import  java.util.List ;
+import java.util.ArrayList;
+import java.util.List;
 
- Agenda da classe  pública {
-		// criando uma lista de contatos do tp contato
-		 Lista Privada < Contato > contatos;
-		// construtor
-		public  Agenda () {
-			// recenbendo os valores da lista de contatos
-			isso . contatos =  new  ArrayList < Contato > ();
+public class Agenda {
+		//criando lista de contatos do tp contato
+		private List<Contato> contatos;
+		//construtor
+		public Agenda() {
+			//recenbendo os valores da lista de contatos
+			this.contatos = new ArrayList<Contato>();
 		}
-		// pegando os valores da lista de contatos
-		pública  List < Contato >  getContatos () {
-			// retornando contatos
-			devolver contatos;
+		//pegando valores da lista de contatos
+		public List<Contato> getContatos() {
+			//retornando contatos
+			return contatos;
 		}
-			// adicionar contato
-			public  boolean  addContato ( Contato  contato ) lança  Exception {
-				// para cada contato dentro de contatos
-				para ( Contato cont : contatos) {
-					// se nome do contato e como lista de contatos
-					if (cont . getNome () . igual a (contato . getNome ()))) {
-						lançar  nova  exceção ( " Contato já existente " );
+			//adicionar contato
+			public boolean addContato(Contato contato) throws Exception{
+				//para cada contato dentro de contatos
+				for (Contato cont : contatos) {
+					//se nome do contato ja estiver na lista de contatos
+					if(cont.getNome().equals(contato.getNome())) {
+						throw new Exception("Contato já existente");
 					}
 				}
-				// adicionar contato na lista de contatos
-				devolva  isto . contatos . adicionar (contato);
+				//adicionar contato na lista de contatos
+				return this.contatos.add(contato);
 					}
-			// remover contato
-			public  boolean  rmContato ( nome da cadeia  ) lança Exception { 
-				// para cada contato dentro da lista de contatos
-				para ( Contato cont : contatos) {
+			//remover contato
+			public boolean rmContato(String nome) throws Exception {
+				//para cada contato dentro da lista de contatos
+				for (Contato cont : contatos) {
 					// se contato existe
-					if (cont . getNome () . equals (nome)) {
-						// retorna a lista de contatos
-						devolva  isto . contatos . remover (cont);
+					if(cont.getNome().equals(nome)) {
+						//retorna remoção do contato da lista de contatos
+						return this.contatos.remove(cont);
 					}
 				}
-				throw  new  Exception ( " Contato não existe " );
+				throw new Exception("Contato não existe");
 			}
-			// procura contato
-			 Contato  público seach ( nome da string  ) lança exceção { 
-				// para cada contato na lista de contatos
-				para ( Contato Contato : contatos) {
-					// se achar contato na lista
-					if (contato . getNome () . igual a (nome)) {
-						// falls contato
+			//procura contato
+			public Contato seach(String nome) throws Exception {
+				//para cada contato na lista de contatos
+				for (Contato contato : contatos) {
+					//se achar contato na lista
+					if(contato.getNome().equals(nome)) {
+						//retorna contato
 						return contato;
 					}
 				}
-				throw  new  Exception ( " Contato não encontrado " );
+				throw new Exception("Contato não encontrado");
 			}
 			
-			// valores telefone
-			public  boolean  addTelefone ( String  nome , Telefone  telefone ) lança  Exception {
-				// para cada contato dentro da lista de contatos
-				para ( Contato Contato : contatos) {
+			//adicionar telefone
+			public boolean addTelefone(String nome, Telefone telefone) throws Exception {
+				//para cada contato dentro da lista de contatos
+				for (Contato contato : contatos) {
 					// se achar contato
-					if (contato . getNome () . igual a (nome)) {
-						// establish telefon
-						retorno contato . addTelefone (telefone);
+					if(contato.getNome().equals(nome)) {
+						//adiciona telefone 
+						return contato.addTelefone(telefone);
 					}
 				}
-				throw  new  Exception ( " Contato não encontrado " );
+				throw new Exception("Contato não encontrado");
 			}
-			// remover contato
-			pública  boolean  rmTelefone ( string  Nome , Cordas  foneId ) lança  Exceção {
-				// para cada contato dentro da lista de contatos
-				para ( Contato Contato : contatos) {
+			//remover contato
+			public boolean rmTelefone(String nome, String foneId) throws Exception {
+				//para cada contato dentro da lista de contatos
+				for (Contato contato : contatos) {
 					// se achar contato
-					if (contato . getNome () . igual a (nome)) {
-						// removedor de telefone
-						retorno contato . rmTelefone (foneId);
+					if(contato.getNome().equals(nome)) {
+						//remover telefone 
+						return contato.rmTelefone(foneId);
 					}
 				}
-				throw  new  Exception ( " Contato não encontrado " );
+				throw new Exception("Contato não encontrado");
 			}
 			
 			
