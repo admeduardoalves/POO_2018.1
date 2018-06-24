@@ -7,6 +7,7 @@ public class Conta {
 	private boolean ativa;
 	int auxcontadorextrato;
 	
+	
 	public Conta(int numero) {
 		this.numero = numero;
 		this.saldo += saldo;
@@ -47,7 +48,7 @@ public class Conta {
 		     auxcontadorextrato++;
 		     return;
 		}
-		throw new RuntimeException("fail: Conta n„o ativa");
+		throw new RuntimeException("fail: Conta n√£o ativa");
 	}
 	
 	public void depositar(float value) {
@@ -59,7 +60,7 @@ public class Conta {
 			auxcontadorextrato++;
 		    return;
 		}
-		throw new RuntimeException("fail: Conta n„o ativa");
+		throw new RuntimeException("fail: Conta n√£o ativa");
 	}
 	
 	public void transferir(float value, Conta other) {
@@ -72,7 +73,7 @@ public class Conta {
 			auxcontadorextrato++;
 			return;
 		}
-		throw new RuntimeException("fail: Conta n„o ativa");
+		throw new RuntimeException("fail: Conta n√£o ativa");
 	}
 	
 	public void encerrar() {
