@@ -1,5 +1,6 @@
 
 public class GerenciadorLogin {
+	
 
 	private Repositorio<User> usuarios;
 	private User user;
@@ -19,14 +20,14 @@ public class GerenciadorLogin {
 
 	public void Logout() {
 		if(user == null)
-		    throw new RuntimeException("fail: n„o est· ninguem logado");
+		    throw new RuntimeException("fail: n√£o est√° ninguem logado");
 		System.out.println("ok");
 		this.user = null;
 	}
 	
 	public User getUser() {
 		if(user == null)
-			throw new RuntimeException("fail: n„o est· ninguem logado");
+			throw new RuntimeException("fail: n√£o est√° ninguem logado");
 		return user;
 	}
 	
