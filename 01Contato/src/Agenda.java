@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Agenda {
 		//criando lista de contatos do tp contato
 		private List<Contato> contatos;
@@ -20,7 +21,7 @@ public class Agenda {
 				for (Contato cont : contatos) {
 					//se nome do contato ja estiver na lista de contatos
 					if(cont.getNome().equals(contato.getNome())) {
-						throw new Exception("Contato j· existente");
+						throw new Exception("Contato j√° existente");
 					}
 				}
 				//adicionar contato na lista de contatos
@@ -32,11 +33,11 @@ public class Agenda {
 				for (Contato cont : contatos) {
 					// se contato existe
 					if(cont.getNome().equals(nome)) {
-						//retorna remoÁ„o do contato da lista de contatos
+						//retorna remo√ß√£o do contato da lista de contatos
 						return this.contatos.remove(cont);
 					}
 				}
-				throw new Exception("Contato n„o existe");
+				throw new Exception("Contato n√£o existe");
 			}
 			//procura contato
 			public Contato seach(String nome) throws Exception {
@@ -48,7 +49,7 @@ public class Agenda {
 						return contato;
 					}
 				}
-				throw new Exception("Contato n„o encontrado");
+				throw new Exception("Contato n√£o encontrado");
 			}
 			
 			//adicionar telefone
@@ -61,7 +62,7 @@ public class Agenda {
 						return contato.addTelefone(telefone);
 					}
 				}
-				throw new Exception("Contato n„o encontrado");
+				throw new Exception("Contato n√£o encontrado");
 			}
 			//remover contato
 			public boolean rmTelefone(String nome, String foneId) throws Exception {
@@ -73,7 +74,7 @@ public class Agenda {
 						return contato.rmTelefone(foneId);
 					}
 				}
-				throw new Exception("Contato n„o encontrado");
+				throw new Exception("Contato n√£o encontrado");
 			}
 			
 			
