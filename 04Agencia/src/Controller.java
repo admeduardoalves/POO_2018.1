@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Controller {
 		Repositorio<Cliente> usuarios;
 		Repositorio<Conta> contas;
@@ -44,7 +45,7 @@ public class Controller {
 			System.out.println(""+ger.getUser().contas.get(ui[1]).getSaldo());
 		else if(ui[0].equals("addConta")) {
 		if(aux > 1)
-			throw new RuntimeException("fail: você possui o numero maximo de contas ativa");
+			throw new RuntimeException("fail: vocÃª possui o numero maximo de contas ativa");
 		ger.getUser().contas.add("" + num, new Conta(num));
 		num++;
 		aux++;
