@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Controller {
 	Repositorio<Cliente> usuarios;
 	Repositorio<Servico> servicos; 
@@ -26,7 +27,7 @@ public class Controller {
 			System.out.println("addCliente__idCli _nome_completo");
 			System.out.println("addAnimal _idAni _especie");
 			System.out.println("addServico _idSer _preco");
-			System.out.println("Vender _idDono _idAnimal _idServiço");
+			System.out.println("Vender _idDono _idAnimal _idServiÃ§o");
 			System.out.println("showClientes");
 			System.out.println("showAnimal");
 			System.out.println("showAnimaleCliente");
@@ -102,7 +103,7 @@ public class Controller {
 		}
 		
 		else
-			return " Comando invalido! \n Digite Help para ver as opções";
+			return " Comando invalido! \n Digite Help para ver as opÃ§Ãµes";
 		return "done";
 	}
 	
