@@ -46,13 +46,19 @@ public class Controller {
 	       for(int i = 3 ; i<ui.length; i++)
 	    	   texto += ui[i] + " ";
 	       
-	       for(User s : usuarios.get(ui[1]).getSeguidores().getAll()) 
-        	   s.addTime(new Tweet(numertweet, usuarios.get(ui[1]), ui[2], texto));
-           
-           usuarios.get(ui[1]).criarTweet(new Tweet(numertweet, usuarios.get(ui[1]), ui[2], texto));      
-           ger.gerarTweet(new Tweet(numertweet, usuarios.get(ui[1]), ui[2],texto));  
+	       //Parte para Corrigir
+	       //Criando Objeto tweet como pediu para corrigir.
+			//CORRIGIDO
+	       Tweet t = new Tweet(numertweet, usuarios.get(ui[1]), ui[2],texto);
+	       for(User u : usuarios.get(ui[1]).getSeguidores().getAll())
+	    	   u.addTime(t);
+           usuarios.get(ui[1]).criarTweet(t);      
+           ger.gerarTweet(t);  
            numertweet++;
 		}
+		
+
+		
 		else if(ui[0].equals("mostrarMytweets"))
 			System.out.println(usuarios.get(ui[1]).mostrarMytweets());
 		else if(ui[0].equals("mostrartweets"))
